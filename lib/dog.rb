@@ -20,5 +20,5 @@ def self.clear_all
   @@all.select do |name|
     name.clear 
 end 
-
+end 
 
