@@ -21,7 +21,7 @@ end
 end 
 
 def self.clear_all 
- puts @@all.select do |name|
+ @@all.select do |name|
 end 
 
 end 
