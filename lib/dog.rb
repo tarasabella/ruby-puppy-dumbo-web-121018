@@ -14,7 +14,6 @@ end
 def self.all 
   @@all.select do |name|
  if name == self.name 
-   puts name
 end 
 end 
 
