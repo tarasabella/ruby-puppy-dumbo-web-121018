@@ -8,4 +8,5 @@ class Dog
     @name = name 
     
     @@all << self 
+    #pushed each new instance created to the array 
 end 
