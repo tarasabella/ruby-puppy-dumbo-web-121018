@@ -15,10 +15,10 @@ def self.all
   @@all.each do |name|
  puts #{name}
 end 
+
 def self.clear_all 
   @@all.select do |name|
     name.clear 
 end 
-end 
-end 
+
 
