@@ -10,3 +10,10 @@ class Dog
     @@all << self 
     #pushed each new instance created to the array 
 end 
+
+def self.all 
+  @@all.each do |dog|
+  puts #{name}
+end 
+end 
+end 
