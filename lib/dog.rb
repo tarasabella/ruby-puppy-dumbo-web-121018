@@ -16,9 +16,9 @@ def self.all
  puts #{name}
 end 
 
-def self.clear_all 
-  @@all.select do |name|
-end 
+# def self.clear_all 
+#   @@all.select do |name|
+# end 
 
-end 
+# end 
 
