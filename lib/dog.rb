@@ -21,4 +21,5 @@ def self.clear_all
     name.clear 
 end 
 
+end 
 
