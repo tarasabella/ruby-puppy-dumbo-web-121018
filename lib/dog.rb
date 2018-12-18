@@ -20,7 +20,7 @@ end
 end 
 
 def self.clear_all 
-  @@all.select do |name|
+ puts @@all.select do |name|
 end 
 
 end 
