@@ -18,7 +18,6 @@ def self.all
     puts dog.name
 end 
 end 
-end 
 
 def self.clear_all
   @@all.clear 
