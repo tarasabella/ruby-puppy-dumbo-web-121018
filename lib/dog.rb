@@ -17,6 +17,7 @@ def self.all
   @@all.map do |name|
     puts dog.name
 end 
+end 
 
 
 # def self.clear_all 
