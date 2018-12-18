@@ -12,8 +12,7 @@ class Dog
 end 
 
 def self.all 
-  @@all.select do |name|
- if name == self.name 
+  puts @@all.select do |name|
 end 
 end 
 
