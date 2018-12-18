@@ -12,8 +12,10 @@ class Dog
 end 
 
 def self.all 
-  @@all.each do |name|
- puts #{name}
+  @@all.select do |name|
+ if name == @@all.name 
+   puts #{name}
+end 
 end 
 
 # def self.clear_all 
